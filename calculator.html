@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:black">
+    <div class="container">
+        <div class="row" style="width:20rem"><p id="current-num">0</p></div>
+        <div class="row">
+            <button class="sop" id="1" onClick="buttonClick(this)">C</button>
+            <button class="sop" id="2" onClick="buttonClick(this)">±</button>
+            <button class="sop" id="3" onClick="buttonClick(this)">%</button>
+            <button class="operator" id="devide" onClick="buttonClick(this)">÷</button>
+        </div>
+        <div class="row">
+            <button class="number" id="1" onClick="buttonClick(this)">1</button>
+            <button class="number" id="2" onClick="buttonClick(this)">2</button>
+            <button class="number" id="3" onClick="buttonClick(this)">3</button>
+            <button class="operator" id="times" onClick="buttonClick(this)">×</button>
+        </div>
+        <div class="row">
+            <button class="number" id="4" onClick="buttonClick(this)">4</button>
+            <button class="number" id="5" onClick="buttonClick(this)">5</button>
+            <button class="number" id="6" onClick="buttonClick(this)">6</button>
+            <button class="operator" id="plus" onClick="buttonClick(this)">+</button>
+        </div>
+        <div class="row">
+            <button class="number" id="7" onClick="buttonClick(this)">7</button>
+            <button class="number" id="8" onClick="buttonClick(this)">8</button>
+            <button class="number" id="9" onClick="buttonClick(this)">9</button>
+            <button class="operator" id="minus" onClick="buttonClick(this)">-</button>
+        </div>
+        <div class="row">
+            <button class="number" id="zero" onClick="buttonClick(this)">0</button>
+            <button class="number dot" id="dot" onClick="buttonClick(this)">.</button>
+            <button class="operator" id="equal" onClick="buttonClick(this)">=</button>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
